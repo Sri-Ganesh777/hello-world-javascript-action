@@ -15,7 +15,7 @@ try {
     core.setOutput("time",time);
 
 // Replace 'example.txt' with your file path
-fs.readFile('example.txt', 'utf8', (err, data) => {
+fs.readFile('temp.txt', 'utf8', (err, data) => {
   if (err) {
     console.error('Error reading file:', err);
     return;
